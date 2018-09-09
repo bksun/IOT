@@ -1,4 +1,4 @@
-#define A6board ss
+#define GSMBoard ss
 #define OK 1
 #define NOTOK 2
 #define TIMEOUT 3
