@@ -1,3 +1,10 @@
+#define A6board ss
+#define OK 1
+#define NOTOK 2
+#define TIMEOUT 3
+#define CIPSTATUS_ERROR   11
+#define statusCountLimit  5
+
 bool sendSMS(String message)
 {
   String str = "";
