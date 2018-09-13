@@ -5,6 +5,11 @@
 #define CIPSTATUS_ERROR   11
 #define statusCountLimit  5
 
+String SERVER  = "46.4.94.41";
+String PORT    = "8890";
+String APN     = "INTERNET";
+String MOBILE  = "08947836814";
+
 bool sendSMS(String message)
 {
   String str = "";
