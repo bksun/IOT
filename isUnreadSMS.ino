@@ -9,7 +9,7 @@ bool isUnreadSMS()
       msg = GSMboard.readmsgingUntil('\n');
       //      DEBUG("AT+CMGL:" + msg + ":" + smsNum );
       //GSMboard.println("AT+CMGD="+smsNum+",0");/* this will delete the sms at index smsNum*/
-      mobileServices(msg);
+      //mobileServices(msg);/*this function will be used to perform some action based on user's request through the received sms*/
       msg = "";
     }
   }
